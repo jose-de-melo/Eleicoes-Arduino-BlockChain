@@ -1,8 +1,8 @@
 # Eleições Arduino BlockChain
-Sistema de votação desenvolvido em arduino e usando um middleware em python pra armazenar os votos em blockchain.
+Sistema de votação desenvolvido em arduino e usando um middleware em python pra armazenar os votos em uma rede blockchain.
 
 
-## Requerimentos
+## Requisitos
   * Python 3
   * Flask
   * pip
@@ -14,7 +14,7 @@ Sistema de votação desenvolvido em arduino e usando um middleware em python pr
 
   * **Recomendado usar um ambiente virtual, como o conda.**
 
-* Para instalar Web3
+* Para instalar o Web3
   ```
     sudo apt-get update
     sudo apt-get install python3-dev
@@ -22,7 +22,7 @@ Sistema de votação desenvolvido em arduino e usando um middleware em python pr
     pip3 install --upgrade web3
     ```
 
-* Para instalar ganache-cli
+* Para instalar o ganache-cli
   ```
     sudo apt-get install build-essential libssl-dev
     curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
